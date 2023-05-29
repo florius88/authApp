@@ -27,7 +27,9 @@ export class AuthService {
   /**
    * Constructor
    */
-  constructor() { }
+  constructor() {
+    this.checkAuthStatus().subscribe()
+  }
 
 
   /**
